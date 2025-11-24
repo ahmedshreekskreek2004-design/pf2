@@ -1,0 +1,59 @@
+body{display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    height: 100%;
+    width: 60%;
+    
+
+    
+padding: 20px;
+background-color: dimgray;
+background-image: url(kofia1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.todo{
+   display: flex;
+    /*justify-content: center;
+    align-items: center;*/
+    flex-direction: column;
+    margin-left: 50%;
+    
+
+}
+
+    .primera h1{text-align: center;
+    text-shadow: 2px 2px beige;
+    transition:  .5s ease;}
+    .primera h1:hover{
+        transform: scale(2);
+        transform:translateX(10px);
+    }
+     .primera h1::before {content: "🧕";}
+     .primera12:before {content:"❤️";}
+
+    .primera12{margin-left: 5px;}
+
+    .primera13{overflow-y: auto;}
+
+    .todo{background-color: rgb(107, 145, 18);
+    color: rgb(0, 9, 7);
+font-size: larger;
+padding: 20px;
+}
+
+.segundo{display: flex;
+text-align: center;}
+.segundo img{width: 300px;
+height: 300px;
+margin: 10px;}
+.segundo p{font-size:x-large;}
+.trecero1:before{content: "🏃🏼";}
+footer p:before{content: "📞";}
+footer p{font-size: x-large;}
+ label:hover{color: aqua;}
+ label input:focus{background-color: rgb(80, 240, 255);}
+ footer{text-align: center;}
+

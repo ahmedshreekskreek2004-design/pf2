@@ -1,0 +1,78 @@
+
+header{position: sticky;
+top: 0;}
+
+.primera1{text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+background:linear-gradient(to right,black,yellow,blue);
+height:100px;
+}
+.primera1::before{content: "✝";
+margin-right: 10px;
+color: aliceblue;
+}
+.primera1::after{content: "✝";
+margin-left: 10px;
+color: aliceblue;
+}
+.primera12{background:linear-gradient(to right,black,blue);
+color:white;
+display: inline;}
+.primera12::before{content: "❤";
+color: red;
+margin: 5px;}
+body{position: relative;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(fototrecero1.jpeg);
+  background-size: cover;
+  background-position: center;}
+main{width: 70%;
+height: auto;
+
+
+
+flex-direction: column;}
+.primera{background-color: rgb(96, 80, 15);}
+.primera p{font-size: x-large;
+color: rgb(64, 255, 16);}
+.primera14{display: flex;
+    gap: 20px;
+    width: 50px;
+}
+.primera14 div {margin-left: 50px;}
+.primera14 p{margin-left: 40px;}
+.segundo
+{background-color: rgb(151, 102, 12);
+margin-top: 20px;
+padding: 10px;}
+.segundo1::before
+{content: "❤";
+color: red;
+margin: 5px;}
+.segundo1{background:linear-gradient(to right,black,blue);
+color: aliceblue;
+display: inline;}
+.segundo13{display: flex;
+ gap: 30px;}
+.segundo13 img{width: 400px;
+height: 300px;}
+.segundo13 div{margin-left: 30px;}
+.segundo p{color: bisque;
+font-size: x-large;}
+footer{text-align:center;
+background: linear-gradient(to right,black,rgb(193, 188, 35),blue);
+transition: 0.3s ease;}
+footer p{color: aliceblue;}
+footer:hover{transform:translateX(20px) ;
+transform: scale(1.2);}
+footer label:hover{color: chartreuse;}
+footer label input:focus-visible{color: rgb(255, 0, 34);}
+footer p::before{content: "📞";
+margin: 5px;}
+.segundo15 h2{background: linear-gradient(to right,red,blue,green);
+    display: inline;color:aliceblue}
+.segundo15 h2::before{content: "🏃🏼";}

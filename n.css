@@ -1,0 +1,92 @@
+header{background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 3;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+flex-direction: column;
+width: 100%;
+padding: 2px;
+border-radius: 2mm;}
+header h1{display: flex; 
+justify-content: center;
+text-shadow:2px 2px rgb(47, 12, 15);
+color: rgb(255, 255, 255);}
+
+header img{width: 80px;
+position: absolute;
+height: 100px;}
+
+.primera
+{display: flex;
+gap: 20px;
+}
+main
+{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+    
+.musliman
+{
+    background-color: dimgray;
+width: 70%;
+overflow: auto;
+margin:30px 0 15px 0 ;
+border-radius:3mm;
+height: 60%;
+padding: 20px;
+text-align: center;
+transition: all 0.3s ease;
+}
+
+.cultura-musliman{background-color: yellow;
+color: black;
+padding: 5px 10px;
+border-radius: 2mm;}
+.musliman:hover{transform: translateY(-5px);}
+
+.cultura-musliman:hover {color: darkslategrey;
+background-color: rgb(13, 171, 171);}
+.cristian{background-color: rgb(105, 105, 105);
+width: 70%;
+margin: 30px 0 15px 0;
+border-radius: 3mm;
+padding: 20px;
+text-align: center;
+transition: all 0.3s ease;}
+.cristian:hover{transform: translateY(-5px);}
+.Turistica{background-color: dimgray;
+width: 70%;
+margin: 30px 0 15px 0;
+border-radius: 3mm;
+padding: 20px;
+text-align: center;
+transition: all 0.3s ease;}
+.Turistica:hover{transform: translateY(-5px);}
+.torist{
+background-color: yellow;
+color: black;
+border-radius: 2mm;
+padding:5px 10px ;
+display: inline-block;}
+.torist:hover{color: darkslategrey;
+background-color: rgb(13, 171, 171);}
+nav a:hover{color: yellow;}
+p{font-size: larger;}
+a{text-decoration: none;
+color: aliceblue;}
+
+header{position: sticky;
+top: 0;}
+main {background-image: url(palistina2.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+

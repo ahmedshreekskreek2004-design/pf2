@@ -1,0 +1,76 @@
+
+header{position: sticky;
+top: 0;}
+header h1{background:linear-gradient(to right,black,white,blue);
+height: 120px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.haifa{background-color: rgb(1, 171, 213);
+width: 70%;
+padding: 20px;}
+.haifa h2{background: linear-gradient(to right,black,rgb(255, 0, 21),blue);
+display: inline;
+color: aliceblue;}
+.haifa li {font-size:x-large ;
+padding: 10px;
+color: rgb(0, 0, 0);}
+.haifa p {font-size: x-large;margin-left: 100px;}
+.haifa .foto{display: flex;gap: 30px;
+padding-left: 20px;}
+.haifa img{width: 400px;
+}
+.haifa p {
+background: linear-gradient(to right,black,rgb(255, 0, 21),blue);
+color: aliceblue;
+display: inline;}
+.acre h2{background: linear-gradient(to right,black,rgb(255, 0, 21),blue);
+color: aliceblue;
+display: inline;}
+.acre{margin-top: 20px;
+background-color: rgb(14, 236, 236);
+padding: 20px;
+width: 70%;}
+.acre ul{font-size: x-large;}
+
+.acre .foto{display: flex;}
+.acre .foto p {background: linear-gradient(to right,black,rgb(255, 0, 21),blue);
+ 
+color: aliceblue;margin-left: 70px; }
+.acre img{width: 400px;height: 300px;}
+.acre p{display: inline;font-size: x-large;}
+.llegada{width: 70%;
+background:linear-gradient(to right,green,blue);
+color: aliceblue;
+padding: 20px;margin-top: 20px;
+
+}
+footer{
+padding: 30px;
+background: linear-gradient(to right,black,blue);
+margin-top: 20px;
+color: aliceblue;
+transition: 0.3s ease;}
+footer p{text-align: center;}
+footer {text-align: center;width: 70%;
+}
+footer:hover{transform: translateX(20px);
+transform: scale(1,2);
+}
+footer p:hover{color: chartreuse;}
+footer label:hover{color: rgb(139, 34, 34);}
+footer label input:focus{color: chocolate;
+background-color: chartreuse;}
+main{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(backcuarto1.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.llegada h2{background: linear-gradient(to right,red,blue,green);
+    display: inline;color:aliceblue}
+    .llegada h2::before{content: "🏃🏼";}
+    
+    
+
